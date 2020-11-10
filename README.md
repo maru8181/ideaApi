@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アイデアを管理するAPI
+カテゴリーを指定して、文章を保存することができる。<br>
+保存した文章は、確認することが可能。
 
-Things you may want to cover:
+### <使用方法>
 
-* Ruby version
+以下のリクエストが可能
 
-* System dependencies
+- /
+<br>
+保存されているアイディア一覧を取得する
+- /:category
+<br>
+指定したカテゴリーのアイディアを取得する
+- /:category/:text
+<br>
+指定したカテゴリーで、文章を保存する
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
